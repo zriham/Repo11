@@ -16,7 +16,7 @@ function myArrayFunction(arr) {
             for (var j=0; j<newTemps[0].length; j++){
               sumTemp += (newTemps[i][j]);  
             }
-               averageDayTemp.push(sumTemp / 4); 
+               averageDayTemp.push(sumTemp / (newTemps.length-1));
         }
 
         // Only change code above this line

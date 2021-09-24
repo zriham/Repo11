@@ -1,10 +1,8 @@
 // Only change code below this line
 function largestNumFromArr(arr) {
-    var arr = [...arr];
     var maxNumArray = [];
-    var max = 0;
     for (var i = 0; i < arr.length; i++) {
-        max = arr[i][1];
+        var max = arr[i][1];
         for (var j = 0; j < arr[i].length; j++){
             if (max < arr[i][j]) {
                 max = arr[i][j];

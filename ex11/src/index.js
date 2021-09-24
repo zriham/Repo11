@@ -1,6 +1,5 @@
   // Only change code below this line
 function splitArrayInGroups(arr, n){
-    var arr = [...arr];
     var result = [];
     for(var i = 0; i < n ; i++){
         result.push(arr.splice(0, n));

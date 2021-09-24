@@ -1,6 +1,5 @@
 // Only change code below this line
 function myBouncer(arr) {
-    var arr = [...arr];
     var arrNew = []
    for (var i = 0; i < arr.length; i++){
       if (arr[i]) {      

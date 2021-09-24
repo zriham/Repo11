@@ -1,6 +1,5 @@
 // Only change code below this line
 function myMutation(arr) {
-    var arr = [...arr];
     var numbChr = 0;
      for ( var i = 0; i < arr[1].length; i++){    
             for ( var j = 0;  j < arr[0].length; j++){

@@ -1,7 +1,5 @@
 // Only change code below this line
 function mySplice(arr1, arr2, n){
-    var arr1 = [...arr1];
-    var arr2 = [...arr2];
     var arrTemp = arr2.splice(n);
     for(var i = arr1.length; i > 0; i--){
         arr2.push(arr1[i-1]);
